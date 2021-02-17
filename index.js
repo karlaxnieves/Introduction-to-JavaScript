@@ -66,10 +66,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(a, b){
+function multiply(a, b) {
   return a * b
 }
-  
+
 console.log(multiply(1, 3));
 
 
@@ -116,11 +116,11 @@ Use the hungryDog function and feeding requirements below to do the following:
      7 - 12 months 4% of their body weight
     
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
-*/  
+*/
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
-  }
+function hungryDog(/*add your code here*/) {
+  /*add your code here*/
+}
 
 
 
@@ -171,8 +171,8 @@ function game(user, computer) {
   else if (user === "paper" && computer === "rock") {
     return "you win!"
   }
-  else (user === "rock" && computer === "paper") 
-    return "you lose!"
+  else (user === "rock" && computer === "paper")
+  return "you lose!"
 }
 
 
@@ -189,7 +189,7 @@ Using the miles function below do the following:
 */
 
 function miles(km) {
-  let miles = km/1.609344;
+  let miles = km * 1.609344;
   return miles;
 }
 
@@ -205,11 +205,11 @@ Using the feet function below do the following:
 */
 
 function feet(cm) {
-  let feet = cm/30.48;
+  let feet = cm / 30.48;
   return feet;
-  }
- 
+}
 
+console.log(feet());
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -238,25 +238,25 @@ Using the grade function below do the following:
    60-69 should return 'you got a D'
    below should return 'you got an F'
 */
-  
-function grade(gradeCalculator){
+
+function grade(gradeCalculator) {
   if (gradeCalculator >= 90) {
-    return "you got a A"
+    return "you got an A"
   }
   else if (gradeCalculator >= 80) {
     return "you got a B"
   }
   else if (gradeCalculator >= 70) {
     return "you got a C"
-  } 
+  }
   else if (gradeCalculator >= 60) {
     return "you got a D"
   }
   else if (gradeCalculator >= 50) {
     return "you got an F"
   }
-  }
-  
+}
+
 console.log(grade(100));
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
@@ -273,25 +273,25 @@ Using the vowelCounter function below do the following:
 
 
 function vowelCounter(/*add your code here*/) {
-    /*add your code here*/
+  /*add your code here*/
 }
 
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
-function foo(){
-    //console.log('its working');
-    return 'bar';
+function foo() {
+  //console.log('its working');
+  return 'bar';
 }
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Don't touch the code after this line! 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
-export default{
-    foo,
-    multiply,
-    dogYears,
-    hungryDog,
-    game,
-    miles,
-    feet,
-    annoyingSong,
-    grade
+export default {
+  foo,
+  multiply,
+  dogYears,
+  hungryDog,
+  game,
+  miles,
+  feet,
+  annoyingSong,
+  grade
 }
